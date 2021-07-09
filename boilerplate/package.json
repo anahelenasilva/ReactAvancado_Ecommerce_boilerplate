@@ -10,7 +10,8 @@
     "postinstall": "husky install",
     "prepublishOnly": "pinst --disable",
     "postpublish": "pinst --enable",
-    "test": "jest"
+    "test": "jest",
+    "test:watch": "yarn test --watch"
   },
   "lint-staged": {
     "src/**/*": [
