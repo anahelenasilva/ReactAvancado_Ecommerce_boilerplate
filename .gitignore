@@ -4,8 +4,8 @@
 node_modules
 /.pnp
 .pnp.js
-/boilerplate/.next/
-/boilerplate/coverage
+.next/
+coverage
 
 # testing
 /coverage
@@ -38,5 +38,5 @@ yarn-error.log*
 .vscode
 
 #sw stuff
-/boilerplate/public/sw.js
-/boilerplate/public/workbox-*.js
+public/sw.js
+public/workbox-*.js
